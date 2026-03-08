@@ -1,13 +1,3 @@
-# Hybrid Neutron Stars and Hadron–Quark Phase Transition
-
-This repository contains numerical work related to my undergraduate thesis on hybrid neutron stars and the hadron–quark matter transition.
-
-The project investigates the structure of neutron stars by solving the Tolman–Oppenheimer–Volkoff (TOV) equations using different equations of state for hadronic and quark matter.
-
----
-
-# Repository Structure
-
 HybridStarCSSModel
 
 - EoS_APR1_CSS.ipynb  
