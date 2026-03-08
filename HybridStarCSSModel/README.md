@@ -38,7 +38,7 @@ Central pressures are sampled logarithmically.
 The code explores different hybrid star configurations by varying:
 
 - transition pressure 'P_tr'
-- energy density discontinuity ΔE
+- energy density discontinuity ΔE around the critical value ΔE_crit determined by the Seidov stability
 
 For each parameter set the **mass–radius relation** is computed.
 
