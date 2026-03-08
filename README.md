@@ -9,7 +9,7 @@ The phase transition is implemented using a Maxwell construction.
 
 The Tolman–Oppenheimer–Volkoff equations are solved numerically to obtain mass–radius relations and investigate the appearance of twin star solutions.
 
-## Part 2 – Self-consistent Transition
+## Part 2 – Self-consistent Transition (CFL Model)
 
 A self-consistent determination of the transition pressure is developed using thermodynamic quantities of APR-1 and the color–flavor–locked (CFL) model.
 
