@@ -1,4 +1,4 @@
-HybridStarCSSModel
+# HybridStarCSSModel
 
 - EoS_APR1_CSS.ipynb  
 Construction of the hybrid equation of state using APR-1 hadronic matter and the Constant Speed of Sound (CSS) quark matter model.
@@ -19,7 +19,7 @@ The equation of state is constructed in different density regimes:
 
 - **Crust:** Three parametrizations describe the low-density region  
 - **Hadronic phase:** APR-1 equation of state  
-- **Quark phase:** Constant Speed of Sound (CSS) model for \(P > P_{tr}\)
+- **Quark phase:** Constant Speed of Sound (CSS) model for transition pressure `P_tr`
 
 This allows the modeling of a **first-order phase transition** between hadronic and quark matter.
 
@@ -29,7 +29,7 @@ The stellar structure is obtained by solving the **Tolman–Oppenheimer–Volkof
 
 - 4th order Runge–Kutta integration
 - adaptive step size  
-- linear interpolation to determine the stellar surface \(P(R) \approx 0\)
+- linear interpolation to determine the stellar surface condition `P(R) ≈ 0`
 
 Central pressures are sampled logarithmically.
 
