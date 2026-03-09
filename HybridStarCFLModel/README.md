@@ -33,9 +33,7 @@ From the tabulated quantities (P, ε, n_B), the baryonic chemical potential is c
 A smooth interpolation of the hadronic pressure P_h(μ) is constructed using **PCHIP interpolation**.
 
 The quark phase is described using the **color–flavor–locked (CFL) model**.  
-The transition point is determined from the thermodynamic equilibrium condition
-
-P_h(μ) = P_q(μ)
+The transition point is determined from the thermodynamic equilibrium condition P_h(μ) = P_q(μ)
 
 The solution is obtained numerically by detecting a sign change and applying the **bisection method**.
 
@@ -52,9 +50,7 @@ The quark equation of state is constructed by:
 - sorting the data with respect to pressure
 - applying **PCHIP interpolation**
 
-This produces the final relation
-
-ε_q(P)
+This produces the final relation ε_q(P)
 
 ---
 
@@ -67,9 +63,7 @@ The hybrid EOS combines:
 
 The transition is implemented through a **Maxwell construction** at the transition pressure P_tr.
 
-A first-order phase transition is introduced through an energy density discontinuity
-
-ε_q(P_tr) → ε_tr + Δε
+A first-order phase transition is introduced through an energy density discontinuity ε_q(P_tr) → ε_tr + Δε
 
 Different values of Δε are explored around the critical value predicted by the **Seidov stability criterion**.
 
