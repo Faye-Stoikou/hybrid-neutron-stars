@@ -1,6 +1,6 @@
 # HybridStarCFLModel
 
-This folder contains the numerical implementation of hybrid neutron stars using the APR-1 hadronic equation of state and the color–flavor–locked (CFL) quark matter model.
+This folder contains the numerical implementation of hybrid neutron stars using the APR-1 hadronic equation of state and the color–flavor–locked (CFL) quark matter model. The transition point between hadronic and quark matter is determined self-consistently from the thermodynamic equilibrium condition between the two phases.
 
 ---
 
